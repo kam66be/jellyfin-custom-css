@@ -1,0 +1,18 @@
+/* blur the top navbar background */
+div.skinHeader.semiTransparent {
+    background-color: rgba(0,0,0,0.4) !important;
+    backdrop-filter: blur(2px) !important;
+}
+/* sticking the player on the top  */
+div.nowPlayingInfoContainer {
+    position: sticky;
+    top: 72px;
+    z-index: 99;
+    background-color: rgba(0,0,0,0.4);
+    backdrop-filter: blur(2px);
+}
+/* highlight the playing title in the playlist */
+div:has(>div.playlistIndexIndicatorImage) div.listItemBody.itemAction{
+    color: yellow;
+    font-weight: bold;
+}
