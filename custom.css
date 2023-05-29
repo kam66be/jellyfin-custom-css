@@ -13,6 +13,6 @@ div.nowPlayingInfoContainer {
 }
 /* highlight the playing title in the playlist */
 div:has(>div.playlistIndexIndicatorImage) div.listItemBody.itemAction{
-    color: yellow;
+    color: #00a4dc;
     font-weight: bold;
 }
