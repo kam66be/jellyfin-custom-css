@@ -15,5 +15,5 @@ div.nowPlayingInfoContainer {
 div:has(>div.playlistIndexIndicatorImage) div.listItemBody.itemAction{
     color: #ffffff !important;
     font-weight: bold !important;
-    background-image: linear-gradient(to right, #00a4dc, #000000) !important;
+    background-image: linear-gradient(to right, #00a4dc 0%, #00a4dc 50%, transparent 100%) !important;
 }
